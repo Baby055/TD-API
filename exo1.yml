@@ -1,10 +1,10 @@
-openapi: 3.0.0
-info:
+openapi: 3.0.0 # version de OpenAPI utilisé
+info: #ses infos évidemment 
   title: API Ping
   version: 1.0.0
 
 paths:
-  /ping:
+  /ping: # méthode 
     get:
       summary: Vérifie la disponibilité de l'API
       responses:
