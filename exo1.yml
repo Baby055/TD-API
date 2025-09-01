@@ -1,10 +1,12 @@
-openapi: 3.0.0 # version de OpenAPI utilisé
-info: #ses infos évidemment 
+openapi: 3.0.3 
+info: 
   title: API Ping
   version: 1.0.0
+server: 
+  - url: 'http://localhost:8080'
 
 paths:
-  /ping: # méthode 
+  /ping:  
     get:
       summary: Vérifie la disponibilité de l'API
       responses:

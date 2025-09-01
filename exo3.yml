@@ -3,7 +3,9 @@ info:
   title: API de gestion de tâches
   version: 1.0.0
   description: Une API simple pour gérer des tâches.
-
+server: 
+  - url: 'http://localhost:8080'
+  
 paths:
   /tasks:
     get:
